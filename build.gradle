@@ -9,11 +9,19 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-	mavenCentral()
+	mavenLocal()
+	maven {
+		url = uri('http://repo.ctbiyi.com:6442/repository/maven-public/')
+	}
+
+	maven {
+		url = uri('http://repo.maven.apache.org/maven2')
+	}
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'cglib:cglib:3.2.6'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
