@@ -1,9 +1,9 @@
 package com.example.designpattern.service.impl;
 
 import com.example.designpattern.entity.Order;
-import com.example.designpattern.service.OrderStrategy;
+import com.example.designpattern.service.PromotionCaculeta;
 
-public class GivenOneByEveryTwoOrderStrategy implements OrderStrategy {
+public class GivenOneByEveryTwoPromotionCaculeta implements PromotionCaculeta {
 
     @Override
     public Order caculateOrder(String promotion) {
