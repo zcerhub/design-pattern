@@ -1,4 +1,4 @@
-package com.example.designpattern.strategyservice;
+package com.example.designpattern.service;
 
 import com.example.designpattern.entity.Order;
 

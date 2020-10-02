@@ -1,7 +1,7 @@
-package com.example.designpattern.strategyservice.impl;
+package com.example.designpattern.service.impl;
 
 import com.example.designpattern.entity.Order;
-import com.example.designpattern.strategyservice.OrderStrategy;
+import com.example.designpattern.service.OrderStrategy;
 
 public class GivenOneByEveryTwoOrderStrategy implements OrderStrategy {
 
